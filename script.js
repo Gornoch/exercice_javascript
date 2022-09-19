@@ -65,8 +65,10 @@ console.log(résultat4);
 
 
 
-const person = firstName[,];
+const nomination= {
+    firstname:"Vicky ",
+    lastname:"Fourcade",
+    ville:"Cambrai",
+};
 
-
-
-alert("mon nom " + person);
+alert("mon nom est " + nomination.firstname + nomination.lastname +". Je suis né à " + nomination.ville + ".");
